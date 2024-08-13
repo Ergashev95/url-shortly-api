@@ -1,1 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+/* CUSTOM PROPS */
+
+:root {
+    --blue-dark: #34313D;
+    --blue-purple: #3A3054;
+    --purple: #4B3F6B;
+    --grey: #9E9AA8;
+    --white-grey: #EFF1F7;
+    --blue-green: #2BD0D0;
+    --white: #fff;
+}
+
+
+/* GLOBAL STYLES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style:   none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1156px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* BUTTON */
+.btn {
+    display: block;
+    padding: 14px 40px 12px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--blue-green);
+    border-radius: 28px;
+    width: max-content;
+    transition: 0.4s;
+
+}
+
+/* BTN HOVER */
+.btn:hover{
+    box-shadow: 0 0 5px var(--blue-green);
+    cursor: pointer;
+}
+
+
+/* BTN ACTIVE */
+
+.btn:active {
+   background-color: #9AE3E3;
+}
+
+
