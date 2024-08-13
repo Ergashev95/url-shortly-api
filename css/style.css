@@ -75,3 +75,77 @@ body {
 }
 
 
+/* D-FLEX */
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-image {
+    width: 120px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.site-header__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.site-header__link {
+    color: var(--grey);
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.site-header__link:hover {
+    color: var(--blue-dark);
+}
+
+.site-header__auth {
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+}
+.site-header__login,
+.site-header__sign {
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+
+}
+
+.site-header__login {
+    color: var(--grey);
+}
+.site-header__sign {
+    color: var(--white);
+    background-color: var(--blue-green);
+    padding: 8px 23px;
+    display: block;
+    border-radius: 28px;
+    transition: 0.4s;
+}
+
+/* HOVER */
+
+.site-header__sign:hover {
+    box-shadow: 0 0 5px var(--blue-green);
+    cursor: pointer;
+}
+/* ACTIVE */
+.site-header__sign:active {
+    background-color: #9AE3E3;
+}
+
