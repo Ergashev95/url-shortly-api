@@ -40,17 +40,34 @@
           <a href="#!" class="site-header__sign">Sign Up</a>
         </ul>
       </div>
+
+    
     </header>
     <!--  SITE-HEADER  -->
 
   <!--   SITE-HERO -->
     <div class="site-hero">
-      <img src="./images/illustration-working.svg" alt="Site hero banner" class="site-hero__banner">
+        <img src="./images/illustration-working.svg" alt="Site hero banner" class="site-hero__banner">
         <div class="container site-hero__container">
           <h1 class="site-title">  More than just shorter links</h1>
           <p class="site-desc">Build your brand’s recognition and get detailed insights
             on how your links are performing.</p>
           <a href="#!" class="site-btn btn">Get Started</a>
+        </div>
+
+        <div class="search">
+          <div class="container">
+            <div class="search-form">
+              <picture class="search-bg">
+                <source media="(max-width: 576px)" srcset="./images/bg-shorten-mobile.svg">
+                <img src="./images/bg-shorten-desktop.svg" alt="Search bg image" class="searc-image">
+              </picture>
+              <form action="" class="search-input">
+                <input type="text" class="search-input__item" placeholder="Shorten a link here...">
+                <button type="submit" class="search-btn">Shorten It!</button>
+              </form>
+            </div>
+          </div>
         </div>
 
     </div>
@@ -59,7 +76,42 @@
 <!-- SITE-HEADER-HERO -->
 
 <!-- SITE-MAIN -->
-<main class="site-main"></main>
+<main class="site-main">
+  <section class="statistics">
+    <div class="container position">
+      <h2 class="statistics-title">Advanced Statistics</h2>
+      <p class="statistics-text">Track how your links are performing across the web with <br> our advanced statistics dashboard.</p>
+      <div class="statistics-line"></div>
+       
+      <div class="statistics-cards">
+        <div class="statistics-card">
+          <div class="statistics-brend">
+            <img src="./images/icon-brand-recognition.svg" alt="Recognition icon" class="statistics-icon">
+          </div>
+          <h3 class="statistics-headline">Brand Recognition</h3>
+            <p class="statistics-desc">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+
+        <div class="statistics-card">
+          <div class="statistics-brend">
+            <img src="./images/icon-detailed-records.svg" alt="Detailed-records icon" class="statistics-icon">
+          </div>
+          <h3 class="statistics-headline">Detailed Records</h3>
+            <p class="statistics-desc">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+        </div>
+
+        <div class="statistics-card">
+          <div class="statistics-brend">
+            <img src="./images/icon-fully-customizable.svg" alt="Fully Customizable icon" class="statistics-icon">
+          </div>
+          <h3 class="statistics-headline">Fully Customizable</h3>
+            <p class="statistics-desc">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+</main>
 <!-- SITE-MAIN -->
 
 <!-- SITE-FOOTER -->
