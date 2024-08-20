@@ -79,20 +79,23 @@ body {
 
 .d-flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    column-gap: 45px;
 }
 
 .site-header-hero {
     height: 800px;
     /* background-color: var(--white); */
 }
-
+.burgers {
+    display: none;
+}
 .site-header {
     padding-top: 48px;
     padding-bottom: 48px;
 }
 .logo {
+    width: 120px;
     display: flex;
     align-items: center;
 }
@@ -101,6 +104,12 @@ body {
     height: 32px;
     object-fit: cover;
     margin-right: 15px;
+}
+.site-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 .site-header__menu {
     display: flex;

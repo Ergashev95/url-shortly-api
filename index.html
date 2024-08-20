@@ -18,27 +18,34 @@
     <!--  SITE-HEADER  -->
     <header class="site-header">
       <div class="container d-flex">
-        <ul class="site-header__menu">
-          <li class="site-header__item">
-            <a href="./index.html" class="site-header__logo logo">
-              <img src="./images/logo.svg" alt="Site logo" class="logo-image">
-            </a>
-          </li>
-          <li class="site-header__item">
-            <a href="#!" class="site-header__link">Features</a>
-          </li>
-          <li class="site-header__item">
-            <a href="#!" class="site-header__link">Pricing</a>
-          </li>
-          <li class="site-header__item">
-            <a href="#!" class="site-header__link">Resources</a>
-          </li>
-        </ul>
 
-        <ul class="site-header__auth">
-          <a href="#!" class="site-header__login">Login</a>
-          <a href="#!" class="site-header__sign">Sign Up</a>
-        </ul>
+          <a href="./index.html" class="site-header__logo logo">
+            <img src="./images/logo.svg" alt="Site logo" class="logo-image">
+          </a>
+
+          <div class="site-header__burgers burgers">
+            <img src="./images/burgers.png" alt="Burgers" class="burgers-image">
+          </div>
+
+        <div class="site-header__content">
+          <ul class="site-header__menu">
+            <li class="site-header__item">
+              <a href="#!" class="site-header__link">Features</a>
+            </li>
+            <li class="site-header__item">
+              <a href="#!" class="site-header__link">Pricing</a>
+            </li>
+            <li class="site-header__item">
+              <a href="#!" class="site-header__link">Resources</a>
+            </li>
+          </ul>
+
+          <ul class="site-header__auth">
+            <a href="#!" class="site-header__login">Login</a>
+            <a href="#!" class="site-header__sign">Sign Up</a>
+          </ul>
+        </div>
+
       </div>
 
 
@@ -47,7 +54,9 @@
 
   <!--   SITE-HERO -->
     <div class="site-hero">
-        <img src="./images/illustration-working.svg" alt="Site hero banner" class="site-hero__banner">
+        <div class="container">
+          <img src="./images/illustration-working.svg" alt="Site hero banner" class="site-hero__banner">
+        </div>
         <div class="container site-hero__container">
           <h1 class="site-title">  More than just shorter links</h1>
           <p class="site-desc">Build your brand’s recognition and get detailed insights
