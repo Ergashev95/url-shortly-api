@@ -93,5 +93,66 @@
     }
 
 
+
+    .search {
+        display: none;
+    }
+    .statistics {
+        padding-top: 80px;
+    }
+    .statistics-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .statistics-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.11px;
+    }
+
+    .statistics-cards {
+        flex-wrap: wrap;
+        row-gap: 48px;
+    }
+    .statistics-card {
+        text-align: center;
+
+    }
+    .statistics-brend {
+        margin: auto;
+    }
+    .statistics-line {
+        display: none;
+
+    }
+
+    .contact-title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    /* FOOTER   */
+    .site-footer {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-info {
+       flex-direction: column;
+    }
+    .footer-menu {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 50px;
+    }
 }
 

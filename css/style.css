@@ -202,6 +202,7 @@ body {
     border-radius: 10px;
     height: 168px;
     overflow: hidden;
+    background-color: #3A3054;
 }
 .search-bg {
     position: absolute;
@@ -218,6 +219,7 @@ body {
     align-items: center;
     height: 25vh;
     column-gap: 24px;
+
 }
 .search-input__item {
     padding: 14px 32px;
@@ -271,6 +273,9 @@ body {
 }
 
 .statistics-text {
+    max-width: 540px;
+    width: 100%;
+  margin: auto;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
